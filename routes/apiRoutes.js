@@ -1,4 +1,5 @@
 const { Workout } = require("../models");
+const express = require ("express");
 
 module.exports = function (app) {
   app.get("/api/workouts", function (req, res) {
